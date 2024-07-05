@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { HiOutlineSearch } from "react-icons/hi";
 
 export default function Navbar() {
   return (
@@ -18,6 +19,9 @@ export default function Navbar() {
             <h3><Link href="/">Home</Link></h3>
             <h3><Link href="/">About</Link></h3>
             <h3><Link href="/">Contact Us</Link></h3>
+            <h3><Link href="/">Shop</Link></h3>
+            <h3><Link href="/">New</Link></h3>
+            <h3><Link href="/">Sale</Link></h3>
         </div>
         <div className="search-signin">
             <form>
@@ -26,6 +30,7 @@ export default function Navbar() {
                     placeholder="search..."
                     className="search-field"
                 />
+                <div id="search-icon"><HiOutlineSearch id="icon" color="black"/></div>
             </form>
             <div>
                 <Link href="/">Sign in</Link>
