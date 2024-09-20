@@ -17,8 +17,8 @@ export default function Navbar() {
         </div>
         <div className="nav-menu">
             <h3><Link href="/">Home</Link></h3>
-            <h3><Link href="/">About</Link></h3>
-            <h3><Link href="/">Contact Us</Link></h3>
+            <h3><Link href="/about">About</Link></h3>
+            <h3><Link href="/contact">Contact Us</Link></h3>
             <h3><Link href="/">Shop</Link></h3>
             <h3><Link href="/">New</Link></h3>
             <h3><Link href="/">Sale</Link></h3>
